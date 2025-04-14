@@ -25,7 +25,7 @@ h1 {
 table {
     width: 100%;
     border-collapse: collapse;
-    margin-bottom: 25px; /* Menambahkan margin di bawah tabel */
+    margin-bottom: 25px;
 }
 
 td {
