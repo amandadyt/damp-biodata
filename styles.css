@@ -1,0 +1,203 @@
+body {
+    font-family: 'Lexend', sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #ffdee9 0%, #fcb6c5 100%) ;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+    color: #c44f76;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(219, 112, 147, 0.3);
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px; /* Menambahkan margin di bawah tabel */
+}
+
+td {
+    padding: 12px 20px;
+    vertical-align: top;
+}
+
+td:first-child {
+    width: 40%;
+    font-weight: bold;
+    color: palevioletred;
+}
+
+td:last-child {
+    color: #524e4e;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:hover td {
+    background-color: #fff3f7;
+}
+
+.btn {
+    display: inline-block;
+    padding: 16px;
+    background-color: palevioletred;
+    color: #fff3f7;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #c44f76;
+}
+
+.cv-container {
+    text-align: left;
+}
+
+.cv-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    gap: 20px;
+}
+
+.profile-image {
+    flex: 0 0 150px;
+}
+
+.profile-placeholder {
+    width: 150px;
+    height: 150px;
+    background-color: #f9f0f2;
+    border: 2px dashed palevioletred;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: palevioletred;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid palevioletred;
+    box-shadow: 0 4px 8px rgba(219, 112, 147, 0.2);
+}
+
+.profile-info {
+    flex: 1;
+}
+
+.profile-info h2 {
+    color: #c44f76;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.profile-info p {
+    margin: 5px 0;
+}
+
+.profile-summary {
+    margin-top: 10px;
+    line-height: 1.5;
+    color: #524e4e;
+}
+
+.cv-section {
+    margin-bottom: 25px;
+    border-bottom: 1px solid #f9e0e7;
+    padding-bottom: 15px;
+}
+
+.cv-section:last-child {
+    border-bottom: none;
+}
+
+.cv-section h3 {
+    color: #c44f76;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #ffdee9;
+}
+
+.cv-item {
+    margin-bottom: 20px;
+}
+
+.cv-item:last-child {
+    margin-bottom: 0;
+}
+
+.cv-item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.cv-item-header h4 {
+    margin: 0;
+    color: #600221;
+    font-weight: 600;
+}
+
+.date {
+    color: #888;
+    font-style: italic;
+}
+
+.cv-item p {
+    margin: 5px 0;
+    color: #524e4e;
+}
+
+.cv-item ul {
+    margin-top: 5px;
+}
+
+.cv-item li {
+    margin-bottom: 5px;
+    color: #524e4e;
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+}
+
+.skill-group h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #600221;
+    ;
+}
+
+.skill-group p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.back-btn {
+    margin-top: 20px;
+}
